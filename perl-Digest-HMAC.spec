@@ -1,6 +1,6 @@
 Name:           perl-Digest-HMAC
 Version:        1.03
-Release:        4.1%{?dist}
+Release:        5%{?dist}
 Summary:        Keyed-Hashing for Message Authentication
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -48,6 +48,9 @@ make test
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.03-5
+- Mass rebuild 2013-12-27
+
 * Wed Aug 15 2012 Daniel Mach <dmach@redhat.com> - 1.03-4.1
 - Rebuild for perl 5.16
 
